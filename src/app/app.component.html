@@ -1,0 +1,5 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<input type="text" [(ngModel)]="username" />
+<p>{{ username }}</p>
+<button [disabled]="username === ''" (click)="onClick()">test button</button>
