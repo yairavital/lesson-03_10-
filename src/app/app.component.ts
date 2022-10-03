@@ -8,7 +8,7 @@ import { isEmpty } from 'rxjs';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
-  username: string = 'hello my name is Avital';
+  username: string = 'hello my name is Avital Yair';
   onClick() {
     this.username = '';
   }
